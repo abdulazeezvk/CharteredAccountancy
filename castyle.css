@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+/* #container{
+    padding: 0 80px;
+} */
+
+.logo {
+    width: 60px;
+    cursor:pointer;
+}
+.navbar {
+    /* width: 85%;
+    margin: auto; */
+    padding: 0 65px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    
+}
+.navbar a{
+      text-decoration: none;
+      color:black;
+}
+.navbar a:hover{
+    color: #3840b5;
+}
+
+/* ====start to bar==== */
+.bar-icon{
+    display: none;
+}
+/* .bar {
+    height: 1.5rem;
+    
+} */
+.container {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+  
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+  }
+/* ====hidden-box to test==== */
+.meun-hide{
+    display: none;
+}
+
+
+.meun-hide {
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width:0px;
+    /* width: 290px; */
+    overflow: hidden;
+    z-index: 100;
+    overflow-y: scroll;
+    background-color: #e5e1de;
+    transition: 0.3s ease;
+    box-shadow:
+         4.7px 0.4px 1.9px rgba(0, 0, 0, 0.031), 10.9px 1px 4.3px rgba(0, 0, 0, 0.045), 19.5px 1.7px 7.7px rgba(0, 0, 0, 0.055), 32.4px 2.9px 12.8px rgba(0, 0, 0, 0.065), 53.4px 4.8px 21.2px rgba(0, 0, 0, 0.075), 93.4px 8.3px 37px rgba(0, 0, 0, 0.089), 202px 18px 80px rgba(0, 0, 0, 0.12)
+}
+.meun-hide.hidden {
+    width: 75% !important;
+}
+
+ul.menubox {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    display: grid;
+    padding: 3rem 0rem 0rem 0rem;
+    place-content: center;
+    font-family: 'Inter';
+}
+
+.menubox a {
+    text-decoration: none;
+    color: black;
+}
+
+@media all and (max-width:900px){
+    .menu {
+        display: none;
+    }
+    .navbar {
+        padding: 0 25px;
+    }
+    .bar-icon {
+        display: block;
+    }
+
+/* ====hidden-box to test==== */
+
+    .meun-hide{
+        display: block;
+    }
+
+}
+/* end to bar */
+
+#backimg{
+    background-image: url(./media/pallan_associates_banner.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    height: 596px;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.shafeeque-text{
+    font-weight: 500;
+    color: green;
+}
+.contact {
+    color: green;
+    background: black;
+    /* width: 6rem;
+    height: 2.3rem; */
+    border: none;
+    height: 39px;
+    Width: 120px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ***start about-image*** */
+.ca-image1 {
+    width: 192px;
+    height: 234px;
+}
+
+.about-text {
+    padding: 0 250px;
+}
+.aboutbox {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    background: black;
+    height: 20rem;
+    padding: 28px;
+    border-radius: 29px;
+}
+.ca-image2 {
+    width: 192px;
+    height: 234px;
+    position: absolute;
+    top: 53rem;
+    left: 25rem;
+}
+.abouttext {
+    margin-left: 3rem;
+    font-family: sans-serif;
+}
+/* .abouttext div{
+    line-height:2 ;
+} */
+.p5{
+    margin-bottom: 15px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+}
+.abouttext h2{
+    margin-bottom: 20px;
+    color: white;
+    background: #158C4C;
+    max-width: fit-content;
+    font-size: 30px;
+}
+.svg-pic1 {
+    margin-left: 10px;
+}
+.svg-pic2 {
+    margin-left: 10px;
+}
+
+/* ***start to our aim*** */
+
+.pic-vision svg {
+    width: 50px;
+    margin-right: 20px;
+    box-shadow:
+            0px 0px 5px rgba(0, 0, 0, 0.145),
+            0px 0px 40px rgba(0, 0, 0, 0.29)
+            ;
+}
+.Vision {
+    display: flex;
+}
+.pic-mission svg {
+    width: 50px;
+    margin-right: 20px;
+    box-shadow:
+            0px 0px 5px rgba(0, 0, 0, 0.145),
+            0px 0px 40px rgba(0, 0, 0, 0.29)
+            ;
+}
+.mission {
+    display: flex;
+}
+.pic-Values svg {
+    width: 50px;
+    margin-right: 20px;
+    box-shadow:
+            0px 0px 5px rgba(0, 0, 0, 0.145),
+            0px 0px 40px rgba(0, 0, 0, 0.29)
+            ;
+}
+.Values {
+    display: flex;
+}
+
+.ac-aim img {
+    width: 500px;
+    height: 520px;
+    border-radius: 11px;
+    margin-top: 30px;
+}
+.ouraim-pic {
+    display: flex;
+    gap: 20px;
+    padding: 0 90px;
+}
+.gruop {
+    font-family: Poppins;
+}
+.ouraim {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.short-aim{
+    background: #158C4C;
+    color: white;
+}
+.v-m-v {
+    margin-bottom: 20px;
+}
+.vt {
+    margin-bottom: 20px;
+}
+.vision-text, .mission-text, .Values-text{
+    margin-bottom: 35px;
+}
+.group-p{
+    font-size: 18px;
+}
+
+/* ***start to Lorem ipsum*** */
+.Lorem-ipsum {
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.ipsum {
+    background: black;
+    padding: 60px 148px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    height: 424px;
+}
+.lorem-pic img {
+    width: 60rem;
+    height: 34rem;
+}
+.ipsum h2{
+    color: #158C4C;
+    margin-bottom: 25px;
+}
+.More-details {
+    background: green;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ***EXPLORE OUR SERVICES*** */
+
+.explore-out-services {
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    margin-bottom: 10rem;
+}
+.out-services{
+    background: #158C4C;
+    color: white;
+}
+
+.ata-box {
+    padding: 0 90px;
+}
+
+.a-t-a {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 6rem;
+    /* padding: 40px;
+    background-color: #f0f0f0; */
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.box h3{
+    margin-bottom: 10px;
+    font-family: Poppins;
+}
+
+.box p {
+    color: black;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.view_btn {
+    max-width: fit-content;
+    margin: 0rem auto;
+}
+.view {
+    background: #158C4C;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+/* ***Meet With Team*** */
+
+.m-w-t{
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.with-team{
+    background: #158C4C;
+    color: white;
+}
+ 
+/* ***start owl carousel*** */
+.owl-slider {
+    background: black;
+    /* padding: 120px 50px; */
+}
+.pic-slider img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+.owl-slider h3{
+    margin: 10px 0;
+    color: #158C4C;
+}
+
+.Owl-Carousel {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.pic-slider {
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 80px;
+    font-family: 'poppins';
+    transition: background-color 0.3s, color 0.3s;
+}
+/* ***while click hover*** */
+.pic-slider:hover{
+    background: #158C4C;
+    
+}
+.pic-slider:hover h3{
+    color: white;
+}
+
+
+
+
+.owl-carousel .owl-item img {
+        /* display: block; */
+        /* width: 100%; */
+        border-radius: 50%;
+    }
+
+
+.owl-carousel .owl-item img {
+     display: initial; 
+     width: initial; 
+    border-radius: 50%;
+}
+ .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+/* *** start to Reviews & Opinion*** */
+
+.r-and-o{
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.and-opinion{
+    background: #158C4C;
+    color: white;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 25px;
+    margin-top:10px;
+    font-family: 'poppins';
+    font-size: 19px;
+    font-weight: 400;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 540px;
+  }
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+  }
+  .five {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+.five-number {
+    margin-bottom: 15px;
+}
+.User-Rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+  /* Individual bars */
+.bar-5 {width: 100%; height: 18px; background-color: gold; border-radius: 8px;}
+.bar-4 {width: 30%; height: 18px; }
+
+/* ***User Rating 5.0***  */
+.user-rating {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 77px;
+
+  }
+  
+  .rating-value {
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 40px;
+    font-family: 'poppins';
+  }
+  
+  .stars {
+    color: gold;
+  }
+  
+  .star {
+    display: inline-block;
+    margin-right: 2px;
+    font-size: 25px;
+  }
+  span.nineteen {
+    color: gray;
+    font-family: 'Poppins';
+}
+
+ /* *** line and black***  */
+
+.centered-line {
+    width: 50%; 
+    margin: 0 auto; 
+    border: 1px solid black;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+
+  .all-Reviews {
+    padding: 0 381px;
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+
+.photo-and-text {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    margin-top: 40px;
+}
+
+/* ================= start=========================== */
+.full-boxer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.star-year {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.stars-n {
+    color: gold;
+    margin-right: 10px;
+}
+p.year {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+/* .comment-box:hover{
+    margin-top: 12px;
+} */
+
+.comment-box{
+    width: 310px;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    /* box-shadow: 3px 3px 25px rgba(0,0,0,0.3); */
+    border: 1px solid #72a7ed;
+}
+
+.Profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+    /* box-shadow: 2px 2px 30px rgba(0,0,0,0.3); */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong{
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.Name span{
+    color: gray;
+    margin-top: 2px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+
+.comment p{
+    color: black;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* =================end=========================== */
+
+.More-reviews h4 {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+.more-svg {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 24rem;
+    margin-bottom: 100px;
+}
+.more-svg svg{
+    margin-left: 5px;
+}
+
+/****for the footer section.****/
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    /* text-align: center; */
+    padding: 20px 0;
+  }
+.ca-logo {
+    text-align: center;
+    background: white;
+}
+
+.menu-last ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 20px 0;
+}
+.menu-last a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.social-media { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+  
+  .footer-content {
+    /* max-width: 960px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 100;
+  }
+  .shafeeque{
+    color: #158C4C;
+  }
+
+
+
+
+
+
+/* Media query for responsiveness */
+@media all and (width<400px) {
+    .pic-slider {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .a-t-a {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:900px){
+    .menu{
+        display: none;
+    }
+    /* .navbar{
+        justify-content: center;
+    } */
+    #backimg {
+        font-size: 25px;
+    }
+    .spot-content h2 {
+        font-size: 25px;
+    }
+
+   /* ***ABOUT US*** */
+   .about-text{
+         padding: 0 20px;
+   }
+   .aboutbox {
+        border-radius: 20px;
+        margin-top: 16px;
+        height: 40rem;
+    }
+   .pic-only, .svg-pic2  {
+        display: none;
+    }
+    .abouttext {
+        margin: 0 20px;
+    }
+    .abouttext h2 {
+        margin-left: 40px;
+    }
+
+    /* start to OUR AIM !  */
+    .ac-aim {
+        display: none;
+    }
+    .ouraim-pic {
+        padding: 0 20px;
+    }
+    .ouraim, .v-m-v {
+        text-align: center;
+    }
+
+/* start to Lorem ipsum */
+    .Lorem-ipsum{
+        flex-wrap: wrap;
+    }
+    .lorem-pic img {
+        width: 100%;
+        height:auto;
+    }
+    .ipsum {
+        padding: 20px 20px;
+        height: auto;
+        text-align: center;
+    }
+    /* EXPLORE OUR SERVICES */
+    .explore-out-services {
+        font-size: 25px;
+        margin-bottom: 5rem;
+    }
+    .ata-box {
+        padding: 0 50px;
+    }
+    /* Meet With Team */
+    .m-w-t {
+        font-size: 30px;
+    }
+    /* Owl-Carousel-later */
+
+
+    /* Reviews & Opinion */
+    .r-and-o {
+        font-size: 30px;
+    }
+    .middle {
+        width: 170px;
+    }
+    .centered-line {
+        width: 22rem;
+    }
+    .all-Reviews {
+        padding: 0 10px;
+    }
+    .more-svg {
+        margin-right: 1rem;
+    }
+
+}

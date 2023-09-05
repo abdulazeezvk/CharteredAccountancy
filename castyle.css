@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding:0;
+    font-family: 'Vollkorn', serif !important;
     -webkit-tap-highlight-color: transparent;
 
 }
@@ -144,7 +145,7 @@ ul.menubox {
     height: 596px;
     align-items: center;
     color: #F2F2F2;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
     text-align: center;
     font-size: 40px;
 }
@@ -435,7 +436,7 @@ ul.menubox {
     border-radius: 10px;
     text-align: center;
     margin: 80px;
-    font-family: 'poppins';
+    font-family: 'Vollkorn', sans-serif;
     transition: background-color 0.3s, color 0.3s;
 }
 /* ***while click hover*** */
@@ -486,7 +487,7 @@ ul.menubox {
     float: left;
     width: 25px;
     margin-top:10px;
-    font-family: 'poppins';
+    font-family: 'Vollkorn',  sans-serif;
     font-size: 19px;
     font-weight: 400;
   }
@@ -508,7 +509,7 @@ ul.menubox {
   /* The bar container */
   .bar-container {
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #dfdedec2;
     text-align: center;
     color: #F2F2F2;
     border-radius: 8px;
@@ -544,7 +545,7 @@ ul.menubox {
     font-weight: bold;
     margin-right: 5px;
     font-size: 40px;
-    font-family: 'poppins';
+    font-family: 'Vollkorn', sans-serif;
   }
   
   .stars {
@@ -558,7 +559,7 @@ ul.menubox {
   }
   span.nineteen {
     color: gray;
-    font-family: 'Poppins';
+    font-family: 'Vollkorn', sans-serif;
 }
 
  /* *** line and #262626***  */
@@ -573,7 +574,7 @@ ul.menubox {
 
   .all-Reviews {
     padding: 0 381px;
-    font-family: 'Poppins';
+    font-family: 'Vollkorn', sans-serif;
     font-size: 10px;
 }
 
@@ -658,7 +659,7 @@ p.year {
 .Name strong{
     color: #262626;
     font-size: 18px;
-    font-family: 'Poppins';
+    font-family: 'Vollkorn',  sans-serif;
 }
 
 .Name span{
@@ -679,7 +680,7 @@ p.year {
 /* =================end=========================== */
 
 .More-reviews h4 {
-    font-family: 'Poppins';
+    font-family: 'Vollkorn', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -718,7 +719,7 @@ p.year {
 .menu-last a {
     color: #F2F2F2;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Vollkorn',  sans-serif;
     font-weight: 200;
 }
 
@@ -741,7 +742,7 @@ p.year {
   
   .footer p {
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Vollkorn',  sans-serif;
     font-weight: 100;
   }
   .shafeeque{

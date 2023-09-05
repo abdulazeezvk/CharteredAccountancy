@@ -211,7 +211,7 @@ ul.menubox {
 .abouttext h2{
     margin-bottom: 20px;
     color: #F2F2F2;
-    background: #158C4C;
+    background: #4477CE;
     max-width: fit-content;
     font-size: 30px;
 }
@@ -284,7 +284,7 @@ ul.menubox {
     font-weight: 700;
 }
 .short-aim{
-    background: #158C4C;
+    background: #4477CE;
     color: #F2F2F2;
 }
 .v-m-v {
@@ -300,42 +300,6 @@ ul.menubox {
     font-size: 18px;
 }
 
-/* ***start to Lorem ipsum*** */
-/* .Lorem-ipsum {
-    display: flex;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-.ipsum {
-    background: #262626;
-    padding: 60px 148px;
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    height: 424px;
-}
-.lorem-pic img {
-    width: 60rem;
-    height: 34rem;
-}
-.ipsum h2{
-    color: #158C4C;
-    margin-bottom: 25px;
-}
-.More-details {
-    background: green;
-    padding: 5px;
-    color: #F2F2F2;
-    font-size: 15px;
-    margin-top: 25px;
-    border: none;
-    cursor: pointer;
-} */
-
-/* ***EXPLORE OUR SERVICES*** */
-
 .explore-out-services {
     text-align: center;
     color: #000;
@@ -344,7 +308,7 @@ ul.menubox {
     margin-bottom: 10rem;
 }
 .out-services{
-    background: #158C4C;
+    background: #4477CE;
     color: #F2F2F2;
 }
 
@@ -386,7 +350,7 @@ ul.menubox {
     margin: 0rem auto;
 }
 .view {
-    background: #158C4C;
+    background: #4477CE;
     color: #F2F2F2;
     padding: 10px;
     font-size: 15px;
@@ -404,9 +368,10 @@ ul.menubox {
     font-size: 40px;
     margin-top: 10rem;
     margin-bottom: 5rem;
+    display: none;
 }
 .with-team{
-    background: #158C4C;
+    background: #4477CE;
     color: #F2F2F2;
 }
  
@@ -414,6 +379,7 @@ ul.menubox {
 .owl-slider {
     background: #262626;
     /* padding: 120px 50px; */
+    display: none;
 }
 .pic-slider img{
     width: 140px;
@@ -441,7 +407,7 @@ ul.menubox {
 }
 /* ***while click hover*** */
 .pic-slider:hover{
-    background: #158C4C;
+    background: #4477CE;
     
 }
 .pic-slider:hover h3{
@@ -478,7 +444,7 @@ ul.menubox {
     margin-bottom: 5rem;
 }
 .and-opinion{
-    background: #158C4C;
+    background: #4477CE;
     color: #F2F2F2;
 }
 
@@ -673,7 +639,7 @@ p.year {
 .comment p{
     color: #262626;
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
 }
@@ -746,7 +712,7 @@ p.year {
     font-weight: 100;
   }
   .shafeeque{
-    color: #158C4C;
+    color: #4477CE;
   }
 
 

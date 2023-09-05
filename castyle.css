@@ -2,6 +2,11 @@
 *{
     margin: 0;
     padding:0;
+    -webkit-tap-highlight-color: transparent;
+
+}
+body {
+    background-color: #F2F2F2;
 }
 /* #container{
     padding: 0 80px;
@@ -33,7 +38,7 @@
 }
 .navbar a{
       text-decoration: none;
-      color:black;
+      color:#262626;
 }
 .navbar a:hover{
     color: #3840b5;
@@ -108,7 +113,7 @@ ul.menubox {
 
 .menubox a {
     text-decoration: none;
-    color: black;
+    color: #262626;
 }
 
 @media all and (max-width:900px){
@@ -132,29 +137,33 @@ ul.menubox {
 /* end to bar */
 
 #backimg{
-    background-image: url(./media/pallan_associates_banner.jpg);
+    background-image: url(./media/tree-black-and-white.jpg);
     display: flex;
     justify-content: center;
     background-size: cover;
     height: 596px;
     align-items: center;
-    color: white;
+    color: #F2F2F2;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 40px;
 }
 .shafeeque-text{
     font-weight: 500;
-    color: green;
+    color: #4477CE;
+}
+.Chartered {
+    color: #262626;
 }
 .contact {
-    color: green;
-    background: black;
-    /* width: 6rem;
+    color: #b78e43;
+    background: #262626;
+    /* width: 6rem;y
     height: 2.3rem; */
     border: none;
     height: 39px;
-    Width: 120px;
+    /* Width: 120px; */
+    padding: .2rem 1rem;
     font-size: 25px;
     font-weight: 600;
     cursor: pointer;
@@ -173,7 +182,7 @@ ul.menubox {
     display: flex;
     justify-content: center;
     margin: 100px 0;
-    background: black;
+    background: #262626;
     height: 20rem;
     padding: 28px;
     border-radius: 29px;
@@ -194,13 +203,13 @@ ul.menubox {
 } */
 .p5{
     margin-bottom: 15px;
-    color: white;
+    color: #F2F2F2;
     font-family: Poppins;
     font-weight: 100;
 }
 .abouttext h2{
     margin-bottom: 20px;
-    color: white;
+    color: #F2F2F2;
     background: #158C4C;
     max-width: fit-content;
     font-size: 30px;
@@ -213,6 +222,10 @@ ul.menubox {
 }
 
 /* ***start to our aim*** */
+
+.pic-mission svg, .pic-vision svg, .pic-Values svg {
+    padding: .5rem;
+}
 
 .pic-vision svg {
     width: 50px;
@@ -270,7 +283,7 @@ ul.menubox {
 }
 .short-aim{
     background: #158C4C;
-    color: white;
+    color: #F2F2F2;
 }
 .v-m-v {
     margin-bottom: 20px;
@@ -286,13 +299,13 @@ ul.menubox {
 }
 
 /* ***start to Lorem ipsum*** */
-.Lorem-ipsum {
+/* .Lorem-ipsum {
     display: flex;
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
 .ipsum {
-    background: black;
+    background: #262626;
     padding: 60px 148px;
     color: #FFF;
     font-family: Poppins;
@@ -312,12 +325,12 @@ ul.menubox {
 .More-details {
     background: green;
     padding: 5px;
-    color: white;
+    color: #F2F2F2;
     font-size: 15px;
     margin-top: 25px;
     border: none;
     cursor: pointer;
-}
+} */
 
 /* ***EXPLORE OUR SERVICES*** */
 
@@ -330,7 +343,7 @@ ul.menubox {
 }
 .out-services{
     background: #158C4C;
-    color: white;
+    color: #F2F2F2;
 }
 
 .ata-box {
@@ -361,7 +374,7 @@ ul.menubox {
 }
 
 .box p {
-    color: black;
+    color: #262626;
     font-family: Poppins;
     font-weight: 400;
 }
@@ -372,7 +385,7 @@ ul.menubox {
 }
 .view {
     background: #158C4C;
-    color: white;
+    color: #F2F2F2;
     padding: 10px;
     font-size: 15px;
     border: none;
@@ -392,12 +405,12 @@ ul.menubox {
 }
 .with-team{
     background: #158C4C;
-    color: white;
+    color: #F2F2F2;
 }
  
 /* ***start owl carousel*** */
 .owl-slider {
-    background: black;
+    background: #262626;
     /* padding: 120px 50px; */
 }
 .pic-slider img{
@@ -416,7 +429,7 @@ ul.menubox {
     gap: 60px;
 }
 .pic-slider {
-    background: white;
+    background: #F2F2F2;
     padding: 50px;
     border-radius: 10px;
     text-align: center;
@@ -430,7 +443,7 @@ ul.menubox {
     
 }
 .pic-slider:hover h3{
-    color: white;
+    color: #F2F2F2;
 }
 
 
@@ -464,7 +477,7 @@ ul.menubox {
 }
 .and-opinion{
     background: #158C4C;
-    color: white;
+    color: #F2F2F2;
 }
 
 /* Three column layout */
@@ -496,7 +509,7 @@ ul.menubox {
     width: 100%;
     background-color: #f1f1f1;
     text-align: center;
-    color: white;
+    color: #F2F2F2;
     border-radius: 8px;
   }
   .five {
@@ -547,12 +560,12 @@ ul.menubox {
     font-family: 'Poppins';
 }
 
- /* *** line and black***  */
+ /* *** line and #262626***  */
 
 .centered-line {
     width: 50%; 
     margin: 0 auto; 
-    border: 1px solid black;
+    border: 1px solid #262626;
     margin-top: 10px; 
     margin-bottom: 10px; 
   }
@@ -605,7 +618,7 @@ p.year {
 
 .comment-box{
     width: 310px;
-    background: white;
+    background: #F2F2F2;
     padding: 20px;
     margin: 15px;
     border-radius: 8px;
@@ -642,7 +655,7 @@ p.year {
 }
 
 .Name strong{
-    color: black;
+    color: #262626;
     font-size: 18px;
     font-family: 'Poppins';
 }
@@ -656,7 +669,7 @@ p.year {
 
 
 .comment p{
-    color: black;
+    color: #262626;
     font-family: 'Inter';
     font-size: 15px;
     font-style: normal;
@@ -691,7 +704,7 @@ p.year {
   }
 .ca-logo {
     text-align: center;
-    background: white;
+    background: #F2F2F2;
 }
 
 .menu-last ul {
@@ -702,7 +715,7 @@ p.year {
     margin: 20px 0;
 }
 .menu-last a {
-    color: white;
+    color: #F2F2F2;
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: 200;

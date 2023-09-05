@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding:0;
+    -webkit-tap-highlight-color: transparent;
+
 }
 /* #container{
     padding: 0 80px;
@@ -163,7 +165,6 @@ p.m-s {
 .container {
     display: inline-block;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
 }
   
   .bar1, .bar2, .bar3 {

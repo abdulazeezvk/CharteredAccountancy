@@ -754,7 +754,7 @@ p.year {
    .aboutbox {
         border-radius: 20px;
         margin-top: 16px;
-        height: 40rem;
+        height: 35rem;
     }
    .pic-only, .svg-pic2  {
         display: none;
@@ -778,7 +778,7 @@ p.year {
     }
 
 /* start to Lorem ipsum */
-    .Lorem-ipsum{
+    /* .Lorem-ipsum{
         flex-wrap: wrap;
     }
     .lorem-pic img {
@@ -789,7 +789,7 @@ p.year {
         padding: 20px 20px;
         height: auto;
         text-align: center;
-    }
+    } */
     /* EXPLORE OUR SERVICES */
     .explore-out-services {
         font-size: 25px;

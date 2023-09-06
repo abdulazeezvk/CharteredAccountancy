@@ -109,9 +109,10 @@ ul.menubox {
     text-align: center;
     line-height: 3;
     display: grid;
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 6rem 0rem 0rem 0rem;
     place-content: center;
     font-family: 'Vollkorn', serif;
+    font-size: 20px;
 }
 
 .menubox a {

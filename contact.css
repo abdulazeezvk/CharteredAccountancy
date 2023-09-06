@@ -82,9 +82,10 @@ ul.menubox {
     text-align: center;
     line-height: 3;
     display: grid;
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 6rem 0rem 0rem 0rem;
     place-content: center;
     font-family: 'Vollkorn', serif;
+    font-size: 20px;
 }
 
 .menubox a {
@@ -199,7 +200,7 @@ p.m-s {
 .p-tag {
     color: #2D2D2D;
     font-family: 'Montserrat';
-    font-size: 13px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;

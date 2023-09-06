@@ -107,9 +107,10 @@ ul.menubox {
     text-align: center;
     line-height: 3;
     display: grid;
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 6rem 0rem 0rem 0rem;
     place-content: center;
     font-family: 'Inter';
+    font-size: 20px;
 }
 
 .menubox a {
@@ -207,6 +208,7 @@ ul.menubox {
     color: #F2F2F2;
     font-family: Poppins;
     font-weight: 100;
+    font-size: 19px;
 }
 .abouttext h2{
     margin-bottom: 20px;
@@ -754,7 +756,7 @@ p.year {
    .aboutbox {
         border-radius: 20px;
         margin-top: 16px;
-        height: 35rem;
+        height: auto;
     }
    .pic-only, .svg-pic2  {
         display: none;
